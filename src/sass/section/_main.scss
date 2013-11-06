@@ -1,0 +1,26 @@
+
+/**
+ * Main
+ */
+#wrapper
+{
+	#header
+	{
+		border: 1px solid #0f0;
+	}
+	
+	#container
+	{
+		#sidebar
+		{
+			float: left;
+			height: 100%;
+			border: 1px solid #00f;
+		}
+		
+		#main
+		{
+			border: 1px solid #f00;
+		}
+	}
+}
