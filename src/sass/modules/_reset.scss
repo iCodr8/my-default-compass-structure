@@ -13,6 +13,7 @@ a
 {
 	color: $color-link;
 	text-decoration: none;
+	cursor: pointer;
 	@include transition-property(color);
 	@include transition-duration(0.1s);
 	
