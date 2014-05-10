@@ -1,0 +1,26 @@
+
+/**
+ * Main
+ */
+#wrapper
+{
+  #header
+  {
+    background: #0f0;
+  }
+
+  #container
+  {
+    #sidebar
+    {
+      float: left;
+      height: 100%;
+      background: #00f;
+    }
+
+    #main
+    {
+      background: #f00;
+    }
+  }
+}
