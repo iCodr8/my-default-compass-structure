@@ -2,11 +2,9 @@
 /**
  * Reset
  */
-html, body
-{
-  padding: 0px;
-  margin: 0px;
-  min-height: 100%;
+html, body, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre, code, ol, ul, li, dl, dt, dd, figure, table, th, td, form, fieldset, legend, input, textarea {
+  margin: 0;
+  padding: 0;
 }
 
 a
@@ -22,4 +20,61 @@ a
     color: $color-link-hover;
     text-decoration: none;
   }
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+caption, th, td {
+  text-align: left;
+  text-align: start; /* see #4596 */
+  vertical-align: top;
+}
+
+abbr, acronym {
+  font-variant: normal;
+  border-bottom: 1px dotted #666;
+  cursor: help;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+ins {
+  text-decoration: none;
+}
+
+header, footer, nav, section, aside, article, figure, figcaption {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1em;
+}
+
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, table, ol, ul, form {
+  margin-bottom: 12px;
 }
